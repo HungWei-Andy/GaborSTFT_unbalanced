@@ -14,6 +14,6 @@ function show_tf(tf, t, f, elapsedTime, msg)
   ylabel('frequency (Hz)');
   
   % save the figure as ".jpg"
-  saveas(h, [msg '.fig']);
-  saveas(h, [msg '.jpg']);
+  saveas(h, ['res/' msg '.fig']);
+  saveas(h, ['res/' msg '.jpg']);
 end
